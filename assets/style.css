@@ -36,15 +36,16 @@ img {
     border-radius: 50%;
 }
 
-
-.col {
+  
+  .col {
     width: 300px;
     background-color: hsl(0deg 0% 20%);
     text-align: center;
     padding: 12px;
     margin: 8px;
     border-radius: 7px;
-}
+    transition: background-color 0.3s ease-in-out;
+  }
 
 .col:hover{
     background-color: hsl(75.15deg 93.64% 56.86%);
